@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {
+	 background-color: #fcfcfc;
+	 
+	}
+
+#maintenance {
+	font-family: 'Raleway', sans-serif;
+	
+	}
+	
+
+	
+#maintenance img {
+	display:block;
+	width: 60%;
+	padding-top: 15px;
+	margin: 0 auto;
+	}
+	
+	
+#maintenance h1 {
+	font-weight: 600;
+	letter-spacing: 2px;
+	padding-top: 30px;
+	text-align:center;
+	
+	}	
+	
+#maintenance h4 {
+	font-weight: 500;
+	font-style: italic;
+	margin-top: 20px;
+	text-align:center;
+	}	
+	
+	
+/* Center Verticaly */
+/* based on: https://codepen.io/Tipue/pen/CBbna */
+
+.center-div
+{
+	position: absolute;
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 450px;
+	height: 340px;
+	background-color: #ccc;
+	border-radius: 3px;
+	  
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
